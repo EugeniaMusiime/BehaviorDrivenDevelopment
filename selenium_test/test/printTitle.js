@@ -3,7 +3,7 @@
 const {By,Key,Builder} = require("selenium-webdriver");
 require("chromedriver");
  
-async function example(){
+async function printTitle(){
  
        var searchString = "Automation testing with Selenium";
  
@@ -25,4 +25,4 @@ async function example(){
  
 }
  
-example()
+printTitle()

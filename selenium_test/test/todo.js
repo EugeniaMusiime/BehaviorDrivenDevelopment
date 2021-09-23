@@ -1,4 +1,4 @@
-//During the test, we'll add a new todo
+//During the test, we'll add a new todo before clsoing the page again
 const {Builder,By,Key} = require('selenium-webdriver');
 require("chromedriver");
 
@@ -13,7 +13,7 @@ async function todo() {
 
 
     //For the purpose of the test, add a todo
-    await driver.findElement(By.id('sampletodotext')).sendKeys('Selenium is cool', Key.RETURN)
+    await driver.findElement(By.id('sampletodotext')).sendKeys('Collines Mukasa, Eugenia Musiimemaria and Peter Wamanga', Key.RETURN)
 
 };
 

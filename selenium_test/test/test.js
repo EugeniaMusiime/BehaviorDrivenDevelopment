@@ -8,7 +8,6 @@ async function _test() {
   //To wait for browser to build and launch properly
   let driver = await new Builder().forBrowser('chrome').build();
 
-
   //To fetch http://google.com from the browser with our code.
   await driver.get('http://www.google.com');
 
