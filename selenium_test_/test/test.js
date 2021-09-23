@@ -14,7 +14,7 @@ async function example(){
         await driver.get("http://google.com");
             
         //To send a search query by passing the value in searchString.
-        await driver.findElement(By.name("q")).sendKeys(searchString,Key.RETURN);
+        await driver.findElement(By.name("q")).sendKeys(searchString,Key.ENTER);
  
         //Verify the page title and print it
         var title = await driver.getTitle();
